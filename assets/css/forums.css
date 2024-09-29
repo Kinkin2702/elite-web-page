@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/about.png);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/assets/images/about.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,13 +82,13 @@ h3 {
 }
 
 .index-category-box:nth-child(1) {
-    background-image: url(images/forums/programming.png);
+    background-image: url(/assets/images/forums/programming.png);
 }
 
 .index-category-box:nth-child(2) {
-    background-image: url(images/forums/computing.png);
+    background-image: url(/assets/images/forums/computing.png);
 }
 
 .index-category-box:nth-child(3) {
-    background-image: url(images/forums/video-game.png);
+    background-image: url(/assets/images/forums/video-game.png);
 }
